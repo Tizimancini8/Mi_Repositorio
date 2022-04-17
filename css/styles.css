@@ -429,6 +429,7 @@ li {
 .servicio {
     text-align:center;
 }
+
 .servicio {
     display: flex;
     flex-direction: column;
@@ -634,3 +635,133 @@ li {
     margin: 1rem 0;
     text-align: center;
 }
+
+.page-title .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  .about-image {
+	height:400px;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+.color-bg {
+	background: var(--celeste);
+}
+
+.color-bg a {
+    color: green
+}
+.color-bg h6, .color-bg p {
+    color: white;
+}
+.color-bg h6::after{
+	border-color: #fff;
+}
+.color-bg .weight-outline-btn {
+    color: white;
+    border-color: white;
+}
+.color-bg .weight-outline-btn:hover {
+  background: #FFF;
+  color: #E04343;
+  border-color: rgba(0, 0, 0, 0);
+}
+.about-text {
+	padding:20px 50px 25px 50px;
+}
+.about-text h1 {
+	text-transform:uppercase;
+	font-size:24px;
+	color: #8C8C8C;
+}
+.color-bg h1.arrow span {
+    color: #FFE800;
+}
+.color-bg h1.arrow {
+    color: #FFF;
+}
+.services {
+	margin-top:80px;
+	margin-bottom:40px;
+}
+.services .icon {
+	position:relative;
+	width:175px;
+	height:175px;
+	margin:0 auto;
+	text-align:center;
+	line-height:180px;
+	font-size:56px;
+	color:#fff;
+	border-radius:50%;
+	box-shadow:0 0 0 0 rgba(0,0,0,0.0);
+	margin-bottom:40px;
+	-webkit-transition:all .3s ease-out;
+	transition:all .3s ease-out;
+	border: 1px solid #E04343;
+	color: #E04343;
+}
+.services .item:hover .icon {
+	background: #E04343;
+	border: 1px solid #E04343;
+}
+.services .item [class*=fa] {
+	-webkit-transition:all .3s ease-out;
+	transition:all .3s ease-out;
+}
+.services .item:hover [class*=fa] {
+	-webkit-transform:scale(1.2);
+	transform:scale(1.2);
+	-webkit-transition:all .3s ease-out;
+	transition:all .3s ease-out;
+	color:#fff;
+}
+.features-wrapper {
+	margin:70px 0 0;
+}
+
+i.respons {
+	position:relative;
+	width:35px;
+	height:35px;
+	margin:0 auto;
+	line-height:35px;
+	text-align:center;
+	font-size:15px;
+	color:#fff;
+	border-radius:50%;
+	-webkit-transition:all .3s ease-out;
+	transition:all .3s ease-out;
+	border:1px solid #CCCCCC;
+	color: #CCCCCC;
+}
+
+.fa {
+    color: black;
+}
+
+h1.arrow {
+	font-size: 16px;
+	text-transform:uppercase;
+	color:#353535;
+	letter-spacing: 4px;
+	background:url('../img/h1-bg.png') no-repeat center bottom;
+	padding-bottom:30px;
+	font-weight: bold;
+    
+}
+
+.section-padding {
+    padding: 90px 0 100px;
+}
+
+.responsive-services {
+	position: relative;
+}
+
+
+
