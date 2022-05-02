@@ -107,8 +107,7 @@ footer {
     height: 400%;
     background-color: #00FBFF;
     transition: 1s;
-    animation: animate 2s linear infinite;
-    animation-delay: calc(0,33s * $i); }
+    animation: animate 2s linear infinite;}
   .boton .boton:hover::before
 .boton2:hover::before, .boton2 .boton:hover::before
 .boton2:hover::before {
