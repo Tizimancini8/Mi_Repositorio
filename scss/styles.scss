@@ -1,4 +1,4 @@
-@import "variables";
+@import "variables", "maps", "extend", "mixin";
 
 body {
     background-image: url(../img/fondo.jpg);
@@ -11,6 +11,11 @@ h1 {
     color: $negro;
     text-align: center;
 
+}
+
+span {
+    font-size: 2rem;
+    color: var($negro)
 }
 
 h2 {
@@ -33,23 +38,12 @@ footer {
 }
 
 .navegacion-principal {
-    background-color: $celeste;
-    display: flex;
-    flex-direction: column;
-
-    a {
-        display: block;
-        text-align: center;
-        color: #ffffff;
-        text-decoration: none;
-        font-size: 2rem;
-        padding: 1rem;
 
         a:hover {
             background-color: #ffdc9f;
             color: $negro;
         }
-    }
+    
 }
 
 @media (min-width: 768px) {
@@ -64,20 +58,7 @@ footer {
         flex-direction: row;
     }
 }
-.contenedor {
-    max-width: 120rem;
-    margin: 0 auto;
 
-    .sombra {
-        padding: 2rem;
-        margin-bottom: 3rem;
-        background-color: rgba(255, 255, 255, 1);
-        border-radius: 10px;
-        -webkit-box-shadow: 0px 11px 15px -9px rgba(0,0,0,0.63);
-        -moz-box-shadow: 0px 11px 15px -9px rgba(0,0,0,0.63);
-        box-shadow: 0px 11px 15px -9px rgba(0,0,0,0.63);
-    }
-}
 
 .hero {
     background-image: url(../img/hero.jpg);
@@ -135,8 +116,6 @@ footer {
         background-color: $celestito;
         transition: 1s;
         animation: animate 2s linear infinite;
-        animation-delay: calc(0,33s * $i);
-    
     }
 
     .boton:hover::before
@@ -316,9 +295,6 @@ i.respons {
 	color: #CCCCCC;
 }
 
-.fa {
-    color: black;
-}
 
 h1.arrow {
 	font-size: 16px;

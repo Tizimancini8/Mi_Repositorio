@@ -1,0 +1,7 @@
+$mapRedes: (fa-credit-card: black, fa-desktop: blue, fa-android: green);
+
+@each $red, $color in $mapRedes {
+    .#{$red} {
+        color: $color;
+    }
+} 
