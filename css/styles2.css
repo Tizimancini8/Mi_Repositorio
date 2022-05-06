@@ -331,9 +331,6 @@ footer {
     padding: 1rem;
 }
 
-.producto__informacion {
-    font-size: 3rem;
-}
 .producto__precio,
 .producto__informacion 
 {
@@ -553,7 +550,7 @@ li {
     margin-right: 10px;
   }
   
-  f.formulario__contacto .action input[type="submit"]{
+  .formulario__contacto .action input[type="submit"]{
     background: white;
     color: black;
   }

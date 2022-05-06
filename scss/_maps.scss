@@ -1,4 +1,4 @@
-$mapRedes: (fa-credit-card: black, fa-desktop: blue, fa-android: green);
+$mapRedes: (fa-credit-card: black, fa-desktop: blue, fa-android: green, fa-briefcase: brown, fa-graduation-cap: black, fa-building: yellow);
 
 @each $red, $color in $mapRedes {
     .#{$red} {
